@@ -1,0 +1,9 @@
+{
+  "feature_set": [
+    "luma_mean",
+    "luma_var"
+  ],
+  "range": "[0,1] after grayscale/255",
+  "img_size": 224,
+  "note": "Per-frame physics features. FFT will be computed per-clip from luma_mean sequence in Stage 5."
+}

@@ -1,0 +1,20 @@
+{
+  "backbone": "torchvision.efficientnet_b0",
+  "weights": "EfficientNet_B0_Weights.DEFAULT",
+  "img_size": 224,
+  "fps": 25,
+  "normalization": {
+    "mean": [
+      0.48500001430511475,
+      0.4560000002384186,
+      0.4059999883174896
+    ],
+    "std": [
+      0.2290000021457672,
+      0.2240000069141388,
+      0.22499999403953552
+    ]
+  },
+  "embedding_dim": 1280,
+  "note": "Embeddings extracted from avgpool output (flattened)."
+}
